@@ -7,55 +7,31 @@ wheels/
 *.egg-info
 
 # Virtual environments
-.venv/
-flipbotenv/
+.venv
 
-# Environment variables and secrets
+
 .env
-.env.*
-secrets.toml
+venv/
+logs/
+FLIPKART_RECOMMENDER.egg-info/
 
-# Jupyter
-.ipynb_checkpoints/
+flipbotenv
 
-# IDE files
-.vscode/
-.idea/
 
-# Logs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.Python
+.env
+.env/
+venv/
+
 *.log
 logs/
 
-# Vector databases
-chroma_db/
-vectorstore/
-faiss_index/
+.vscode/
+*.egg-info
 
-# Model artifacts
-*.pkl
-*.joblib
-*.pt
-*.pth
-*.onnx
-
-# Streamlit
-.streamlit/secrets.toml
-
-# GCP
-.gcloud/
-*.json
-
-# Monitoring
-prometheus_data/
-grafana_data/
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Test and cache files
-.pytest_cache/
-.coverage
-htmlcov/
-.mypy_cache/
-.ruff_cache/
+dd
