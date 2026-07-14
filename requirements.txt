@@ -4,7 +4,6 @@ langchain-huggingface == 1.2.0
 langchain-groq == 1.1.1       
 langchain-community == 0.4.1
 langgraph==1.0.10
-langgraph-prebuilt==1.0.5  
 datasets == 4.4.2
 pypdf == 6.5.0
 python-dotenv == 1.2.1
